@@ -22,7 +22,8 @@ function createBoxes(amount) {
 }
 
 function destroyBoxes() {
-  boxesEl.innerHTML = ''
+  boxesEl.innerHTML = '';
+  inputEl.value = 0;
 }
 
 

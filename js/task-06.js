@@ -3,7 +3,6 @@ const lengthEl = document.querySelector('input[data-length="6"]');
 
 
 inputEl.addEventListener('blur', (event) => {
-  console.log(inputEl.value.length)
   if (inputEl.value.length === Number(inputEl.dataset.length)) {
         inputEl.classList.remove('invalid');
         inputEl.classList.add('valid');
